@@ -26,6 +26,4 @@ Code is released under the Apache License, Version 2.0.
   $: echo 'src-git empower https://github.com/5g-empower/empower-lede-packages.git' >> feeds.conf.default
   $: ./scripts/feeds update empower
   $: ./scripts/feeds install -a -p empower
-  $: make menuconfig
-  $: select Network -> empower-agent
 ```

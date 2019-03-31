@@ -16,8 +16,6 @@ Checkout out our [website](http://5g-empower.io/) and our [wiki](https://github.
 
 This repository includes the 5G-EmPOWER packages for LEDE 17.01.
 
-Code is released under the Apache License, Version 2.0.
-
 ### How to install
 
 ```
@@ -26,3 +24,5 @@ Code is released under the Apache License, Version 2.0.
   $: ./scripts/feeds update empower
   $: ./scripts/feeds install -a -p empower
 ```
+### License
+Code is released under the Apache License, Version 2.0.

@@ -64,7 +64,6 @@ define Build/Compile
 		-A --all -E Discard -E Print -E PrintWifi -E Strip -E Null \
 		-e SetTXRate -e SetTXRateHT -E ToDump -E RatedSource \
 		-E EtherEncap -E WifiEncap -E WifiDecap -E UDPIPEncap -E IPPrint -E EmpowerACKHandler -E EmpowerLatencyInfo -E EmpowerWifiInfoHandler \
-
 	);
 	$(call Build/Install/Default, MINDRIVER=$(PKG_NAME) install)
 endef

@@ -13,7 +13,7 @@ PKG_RELEASE:=1
 PKG_REV:=b94b2c8a86d8277bfac9dbb82e6de4201e14f6f0
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
-PKG_SOURCE_URL:=https://github.com/5g-empower/empower-lvap-agent.git
+PKG_SOURCE_URL:=https://github.com/imec-idlab/sdn_wifi_lvap_agent.git
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
 PKG_SOURCE_VERSION:=$(PKG_REV)
 PKG_SOURCE_PROTO:=git

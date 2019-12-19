@@ -63,7 +63,7 @@ define Build/Compile
 		-f $(PKG_BUILD_DIR)/elements/empower/samples/empower.click \
 		-A --all -E Discard -E Print -E PrintWifi -E Strip -E Null \
 		-e SetTXRate -e SetTXRateHT -E ToDump -E RatedSource \
-		-E EtherEncap -E WifiEncap -E WifiDecap -E UDPIPEncap -E IPPrint -E Unqueue -E EmpowerIntEncapInter \
+		-E EtherEncap -E WifiEncap -E WifiDecap -E UDPIPEncap -E IPPrint -E Unqueue -E EmpowerQueueInfoBase \
 	);
 	$(call Build/Install/Default, MINDRIVER=$(PKG_NAME) install)
 endef
